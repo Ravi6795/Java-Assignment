@@ -1,0 +1,61 @@
+
+
+=============================================================================================================================================
+1) Create a class Test Performance ,Create two list one list will be type ArrayList and Second list will be type LinkedList.
+
+=============================================================================================================================================
+import java.util.*;
+class TestPerformance 
+{
+	public static void createArrayList(List MyArrayList)
+	{
+		int i;
+		for(i=0;i<50000;i++)
+		{
+			MyArrayList.add(i);
+		}
+	}
+	public static void createLinkedList(List MyLinkedList)
+	{
+		int i;
+		for(i=0;i<50000;i++)
+		{
+			MyLinkedList.add(i);
+		}
+	}
+	public static void printArrayList(List myArrayList)
+	{
+		int i;
+		for(i=0;i<myArrayList.size();i++)
+		{
+			System.out.println(myArrayList.get(i));
+		}
+
+	}
+	public static void printLinkedList(List myLinkedList)
+	{
+		int i;
+		for(i=0;i<myLinkedList.size();i++)
+		{
+			System.out.println(myLinkedList.get(i));
+		}
+
+	}
+	
+	public static void main(String args[])
+	{
+		List myArrayList=new ArrayList();
+		List myLinkedList =new LinkedList();
+		
+		createArrayList(myArrayList);
+		printArrayList(myArrayList);
+		
+		createLinkedList(myLinkedList);
+		printLinkedList(myLinkedList);
+		
+		
+	}
+}
+
+=============================================================================================================================================
+=============================================================================================================================================
