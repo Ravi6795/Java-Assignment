@@ -1,0 +1,13 @@
+Z:\Java>javac MyFileUnzip.java
+
+Z:\Java>java MyFileUnzip
+Extracting file to Z:/Assignment Q1.txt
+Extracting file to Z:/notepadfinal.txt
+Extracting file to Z:/Scanner.txt
+Extracting file to Z:/Assignment  Q2.txt
+
+Z:\Java>
+
+
+
+
